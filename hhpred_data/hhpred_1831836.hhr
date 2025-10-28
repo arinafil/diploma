@@ -1,0 +1,76 @@
+Query         EGOVIRUS_MCP_LIUQ22_1_SAMN18817818_METAG_scaffold_1_1899_length_2391
+Match_columns 796
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 19:51:59 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/1831836.hhr -oa3m ../results/1831836.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 Q5IZI7 MCP_ASFWA Major capsid   62.2      29 0.00035   39.7   6.0  230  116-371    91-363 (646)
+  2 5J7O_A major capsid protein; v  20.1 2.1E+02  0.0025   32.7   3.9  102  116-227    90-233 (645)
+
+No 1
+>Q5IZI7 MCP_ASFWA Major capsid protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-091 PE=3 SV=1
+Probab=62.17  E-value=29  Score=39.69  Aligned_cols=230  Identities=18%  Similarity=0.162  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             eehHHHHHHHhccceeeEeeccCCeeeehhHH---HHhcccc-------------------Ccccccccccc--------
+Q EGOVIRUS_MCP_L  116 EFNLMRIVDFIGRNYCRIVLPEVDTTIVMDQA---VRAGRNN-------------------GGVERMSDKRH--------  165 (796)
+Q Consensus       116 efnlmrivdfigrnycrivlpevdttivmdqa---vragrnn-------------------ggvermsdkrh--------  165 (796)
+                      .|.+-|--||+..-|.+|.||++...++-..+   ...++.+                   |.+-+.-|.--        
+T Consensus        91 ~~~Ip~~GDll~~m~l~i~Lp~i~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~y~~~d~~~~~~~~~~~  170 (646)
+T Q5IZI7           91 TFGIPQYGDFFHDMVGHHILGACHSSWQDAPIQGTSQMGAHGQLQTFPRNGYDWDNQTPLEGAVYTLVDPFGRPIVPGTK  170 (646)
+T ss_pred             EEEcCCCCCeeeEEEEEEEccccCccccCCCCCCcccccccccccccCCCCCCcCCCCCccCcceeeeCCCCCccCCCCc
+
+
+Q ss_pred             ---eecchhhhhHHHHHHheeeeecCCCCcceeeeccceehhhhhhhhHHHHH--HHHHhcCCcceee--------ecCc
+Q EGOVIRUS_MCP_L  166 ---MYLGAWHRDLIPRIIKEVEFYPRSNSHKLFTYSGYDIFVHNMLFGNAMKK--LNDLMAGEDAFEI--------VYDP  232 (796)
+Q Consensus       166 ---mylgawhrdlipriikevefyprsnshklftysgydifvhnmlfgnamkk--lndlmagedafei--------vydp  232 (796)
+                         .+.-+|-..+--++||+|+|+-  +...+-+|.|..+.+++.++...-|+  .+.++..+..++-        +-|+
+T Consensus       171 ~~~~~~~~w~~~~G~~LIe~V~l~I--gG~~ID~~~ge~l~i~~el~~~~~k~~~y~~liG~~~~l~~~~~~~~~~~~~~  248 (646)
+T Q5IZI7          171 NAYRNLVYYCEYPGERLYENVRFDV--NGNSLDEYSSDVTTLVRKFCIPGDKMTGYKHLVGQEVSVEGTSGPLLCNIHDL  248 (646)
+T ss_pred             cccccceeccChHHHHHhCEEEEEE--CCEEEEEEeHHHHHHHHHhcCCcchHHHHHHHcCCccccccCCCccccccccc
+
+
+Q ss_pred             ccccccccccccccCCCCCCCccceeEEecCCCCCCCCceeccCCCCeEeeccCCceehhhhccChhhHhHhhcceeecC
+Q EGOVIRUS_MCP_L  233 YAVHGSALGLASYKGVDDGTSPYDITAVTTSPAGVSPNVQIGAAGTGVQVSGFNNKFIYDSFMDGPEFASVYRRGVWYEA  312 (796)
+Q Consensus       233 yavhgsalglasykgvddgtspyditavttspagvspnvqigaagtgvqvsgfnnkfiydsfmdgpefasvyrrgvwyea  312 (796)
+                      .-.|-+-.++....|......+..-.....-+...|-+.+                      .+|.|-....-+++++.-
+T Consensus       249 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----------------------~~~~~~~~~~~~~~y~~~  306 (646)
+T Q5IZI7          249 HKPHQSKPILTDENDTQRTCSHTNPKFLSQHFPENSHNIQ----------------------TAGKQDITPITDATYLDI  306 (646)
+T ss_pred             CCCCCCCCCccCCCCccccccCCCcchhhccCCccccccc----------------------cCCcCCCCccCCcccccc
+
+
+Q ss_pred             ccccccccccchhhhhheeeeEEEeeeccccccchhHHhhCCcHHHcCCceeEEEEeCh
+Q EGOVIRUS_MCP_L  313 PMFKNYACRHSIHSRRFVHAAKVITFPLDILPFSYSIASALPSAAIAGDCGFISIKLHP  371 (796)
+Q Consensus       313 pmfknyacrhsihsrrfvhaakvitfpldilpfsysiasalpsaaiagdcgfisiklhp  371 (796)
+                      ..-.-+.|.-..-. ...+....+..||. .-|.-....|||..|+.-.-=+|.||+.|
+T Consensus       307 ~~~~~~~~~g~qt~-~~s~~~~~L~IPL~-FwF~~~~~lALPLvaL~~~~v~I~I~fr~  363 (646)
+T Q5IZI7          307 RRNVHYSCNGPQTP-KYYQPPLALWIKLR-FWFNENVNLAIPSVSIPFGERFITIKLAS  363 (646)
+T ss_pred             cccccccCCCCCCC-cccCCCeEEEEEcc-ccccCCCccccceeeCCCcEEEEEEEeCC
+
+
+No 2
+>5J7O_A major capsid protein; virus, capsid, double jelly-roll, VIRAL PROTEIN; 2.37A {Faustovirus}
+Probab=20.12  E-value=2.1e+02  Score=32.70  Aligned_cols=102  Identities=17%  Similarity=0.213  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             eehHHHHHHHhccceeeEeeccCCeeee----------------------------------------hhHHHHhccccC
+Q EGOVIRUS_MCP_L  116 EFNLMRIVDFIGRNYCRIVLPEVDTTIV----------------------------------------MDQAVRAGRNNG  155 (796)
+Q Consensus       116 efnlmrivdfigrnycrivlpevdttiv----------------------------------------mdqavragrnng  155 (796)
+                      .|.+-|--||+..-|.+|.||++.....                                        ++        ..
+T Consensus        90 ~~~Ip~~GDll~~~~l~i~lp~i~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~v~--------~~  161 (645)
+T 5J7O_A           90 QFSIPQFGDFFSDMVVHVQLAATSASAGTVPALPAFIGADDQVLTSTSVVSATENTTSGVYTLYTQSYVN--------QQ  161 (645)
+T ss_dssp             EEECCSCSSEEEEEEEEEEECCBCCCEEECCCCCCCCSSEEEEECSSCEEEEECCTTTTEEEEEEEEEEC--------TT
+T ss_pred             EEEcCChhhheeeEEEEEEeCcccCCCCCCCCCccccCCCccccCCccccccccccccceeEEeeeeeec--------CC
+
+
+Q ss_pred             cccccccccceecchhhhhHHHHHHheeeeecCCCCcceeeeccceehhhhhhhhHHHHHH--HHHhcCCccee
+Q EGOVIRUS_MCP_L  156 GVERMSDKRHMYLGAWHRDLIPRIIKEVEFYPRSNSHKLFTYSGYDIFVHNMLFGNAMKKL--NDLMAGEDAFE  227 (796)
+Q Consensus       156 gvermsdkrhmylgawhrdlipriikevefyprsnshklftysgydifvhnmlfgnamkkl--ndlmagedafe  227 (796)
+                      |-.---+.---+.-+|-..+--+||++|+|+  -+...+-++.|..+.+++.++...-|+.  +.++..+..++
+T Consensus       162 G~~~~~~~~~~~~~~W~~~lG~~lIe~v~l~--Igg~~Id~~~ge~l~i~~el~~~~~k~~~y~~miG~~~~l~  233 (645)
+T 5J7O_A          162 GTTQTVAAAATNFVRYCEYPGLRLFKRVKFE--VNGNPLDEYTALAAIMYNKFHVPDFKLTGWKRLIGQEVPVE  233 (645)
+T ss_dssp             CCEECTTSEEECEEEECSSHHHHHEEEEEEE--ETTEEEEEEEHHHHHHHHHHSCCHHHHHHHHHHTTCCCCEE
+T ss_pred             CCcccccccccceeEecCcHHHHHhcEEEEE--ECCEEEEEEeHHHHHHHHHhcCCHHHHHHHHHHcCCccccc
+
+

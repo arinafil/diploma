@@ -1,0 +1,25 @@
+Query         EGOVIRUS_MCP_MERR22_1_SAMEA4765766_S002_METAG_scaffold_41_4836_length_2529
+Match_columns 842
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:35:44 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/6154222.hhr -oa3m ../results/6154222.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5DVB_F Tsa2p; Oxidoreductase,   21.1      44 0.00055   28.4  -0.6   35   14-48      6-43  (217)
+
+No 1
+>5DVB_F Tsa2p; Oxidoreductase, Peroxiredoxin, Peroxidase, Oxidative Stress; 2.2A {Saccharomyces cerevisiae} SCOP: c.47.1.10, l.1.1.1
+Probab=21.14  E-value=44  Score=28.40  Aligned_cols=35  Identities=6%  Similarity=-0.323  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             HHHHHhhhhccCCCCCceeEecCcCCcee---eeeccc
+Q EGOVIRUS_MCP_M   14 YLYFFEFEMSMNTDRLGSVTVGTTFPDII---INTVEG   48 (842)
+Q Consensus        14 ylyffefemsmntdrlgsvtvgttfpdii---intveg   48 (842)
+                      |+|||++.|.........+.+|..+|+..   +....|
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~g~~~p~~~~~~l~~~~g   43 (217)
+T 5DVB_F            6 HHHVDDDDKENLYFQGMVAEVQKQAPPFKKTAVVDGIF   43 (217)
+T ss_dssp             ------------CCTTCCCCTTSBCCCCEEEEEETTEE
+T ss_pred             cccCCcchhhHHHHHHheeecCCCCCCCceeEEECCee
+
+

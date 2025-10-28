@@ -1,0 +1,78 @@
+Query         EGOVIRUS_MCP_ANAN16_1_SAMN03203005_S001_METAG_scaffold_700_4000_length_423
+Match_columns 140
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:30:53 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/5176147.hhr -oa3m ../results/5176147.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3A4C_A DNA replication factor   33.1 1.1E+02  0.0013   21.0   3.0   44   81-127    36-79  (106)
+  2 2LH0_B Histone chaperone RTT10  26.7   1E+02  0.0013   21.4   2.1   28   66-93      1-28  (70)
+  3 2KLO_A DNA replication factor   25.1 1.7E+02  0.0021   20.6   3.0   44   81-127    68-111 (138)
+  4 Q6R7K9 Y014_OSHVF Uncharacteri  24.4      73  0.0009   27.2   1.3   71   24-101    12-89  (194)
+
+No 1
+>3A4C_A DNA replication factor Cdt1; alpha-beta structure, Cell cycle, DNA replication, DNA-binding, Nucleus, Phosphoprotein, Proto-oncogene, Ubl conjugation, Replication; 1.889A {Mus musculus}
+Probab=33.09  E-value=1.1e+02  Score=20.98  Aligned_cols=44  Identities=16%  Similarity=0.369  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHcCCCcchhHHHHHHHHccCchHhhCCCcccHhhcCCC
+Q EGOVIRUS_MCP_A   81 LRQTIQTVIESQPHRTFADEVIARRHEVNNIGEVFPNWMTLEQHNGD  127 (140)
+Q Consensus        81 lrqtiqtviesqphrtfadeviarrhevnnigevfpnwmtleqhngd  127 (140)
+                      +.+.++.+..|.+...-.+|+.+.   +.-+.++.|.|.++..-+|.
+T Consensus        36 ~~~lv~~l~~s~~~~~s~~e~~~~---l~lL~e~~P~w~~~~~~~~~   79 (106)
+T 3A4C_A           36 MEVVCARMVDSCQTALSPGEMEKH---LVLLAELLPDWLSLHRIRTD   79 (106)
+T ss_dssp             HHHHHHHHHHTSCCSCCHHHHHHH---HHHHHHHCTTTEEEEEETTE
+T ss_pred             HHHHHHHHHHccCCCCCHHHHHHH---HHHHHHHCCCcEEEEEcCCC
+
+
+No 2
+>2LH0_B Histone chaperone RTT106; HISTONE CHAPERONE, CHAPERONE, CHROMOSOMAL PROTEIN, NUCLEUS, PHOSPHOPROTEIN, TRANSCRIPTION, TRANSCRIPTION REGULATION, TRANSPOSITION; NMR {Saccharomyces cerevisiae}
+Probab=26.74  E-value=1e+02  Score=21.41  Aligned_cols=28  Identities=25%  Similarity=0.329  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             chhcchhHhhcCHHHHHHHHHHHHHcCC
+Q EGOVIRUS_MCP_A   66 GMFHGFTQFVHDPQALRQTIQTVIESQP   93 (140)
+Q Consensus        66 gmfhgftqfvhdpqalrqtiqtviesqp   93 (140)
+                      ||.--..-+-.=|..||+.|+.++...|
+T Consensus         1 ~m~~m~~~l~~LP~~Lr~~V~~li~~~P   28 (70)
+T 2LH0_B            1 GHMMSKLFLDELPESLSRKIGTVVRVLP   28 (70)
+T ss_dssp             CCCSCCSSSSSSCHHHHHHHHHHHTTCT
+T ss_pred             CCccchHHHHhCCHHHHHHHHHHHHhCh
+
+
+No 3
+>2KLO_A DNA replication factor Cdt1; mouse Cdt1, replication licensing factor, winged helix fold, mcm binding, Cell cycle, DNA replication, DNA-binding, Nucleus; NMR {Mus musculus}
+Probab=25.14  E-value=1.7e+02  Score=20.55  Aligned_cols=44  Identities=16%  Similarity=0.369  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHHcCCCcchhHHHHHHHHccCchHhhCCCcccHhhcCCC
+Q EGOVIRUS_MCP_A   81 LRQTIQTVIESQPHRTFADEVIARRHEVNNIGEVFPNWMTLEQHNGD  127 (140)
+Q Consensus        81 lrqtiqtviesqphrtfadeviarrhevnnigevfpnwmtleqhngd  127 (140)
+                      +.+.+..+..|.+...-.+|+...   +.-+.++.|.|.++..-+|.
+T Consensus        68 ~~~l~~~l~~s~~~~~s~~e~~~~---l~lL~e~~P~w~~i~~~~~~  111 (138)
+T 2KLO_A           68 MEVVCARMVDSCQTALSPGEMEKH---LVLLAELLPDWLSLHRIRTD  111 (138)
+T ss_dssp             HHHHHHHHHGGGTTTCCHHHHHHH---HHHHHHHCTTTEEEEEETTE
+T ss_pred             HHHHHHHHHHhcCCCCCHHHHHHH---HHHHHHHCCCcEEEEEcCCC
+
+
+No 4
+>Q6R7K9 Y014_OSHVF Uncharacterized protein ORF14 OS=Ostreid herpesvirus 1 (isolate France) OX=654903 GN=ORF14 PE=4 SV=1
+Probab=24.45  E-value=73  Score=27.23  Aligned_cols=71  Identities=34%  Similarity=0.514  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCC-----CCCCccccccCCccccccchHHHHHhHcccchhcchhcchhHhhcCHHHHHHH--HHHHHHcCCCcc
+Q EGOVIRUS_MCP_A   24 NNSQDEPP-----ETPPTQQQRITPQVNYGRTSLADIIIQNVNGVANGMFHGFTQFVHDPQALRQT--IQTVIESQPHRT   96 (140)
+Q Consensus        24 nnsqdepp-----etpptqqqritpqvnygrtsladiiiqnvngvangmfhgftqfvhdpqalrqt--iqtviesqphrt   96 (140)
+                      ||.-||.|     .-......||||       .|..+|-.|.|--..--......+-..|...|..  |||.|-.|...-
+T Consensus        12 nnaldespvetifpmekenknritp-------gltelietnmnlrrkcklencpkwdpnpdrarkvayiqtlivtqsskl   84 (194)
+T Q6R7K9           12 NNALDESPVETIFPMEKENKNRITP-------GLTELIETNMNLRRKCKLENCPKWDPNPDRARKVAYIQTLIVTQSSKL   84 (194)
+T ss_pred             ccccCCCCcccccccchhcccccCc-------cHHHHHHHhchHhHhcccccCCCCCCCchHHHHHhheeEEEhhccccc
+
+
+Q ss_pred             hhHHH
+Q EGOVIRUS_MCP_A   97 FADEV  101 (140)
+Q Consensus        97 fadev  101 (140)
+                      |.|||
+T Consensus        85 fmdev   89 (194)
+T Q6R7K9           85 FMDEV   89 (194)
+T ss_pred             cHHhH
+
+

@@ -1,0 +1,4 @@
+input_dir: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/hhsearch/output_hhsearch/" 
+output_dir: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/parsing/parse_output/"
+scripts: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/parsing/parse.pipe/scripts/"
+envs: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/parsing/parse.pipe/workflow/envs/"

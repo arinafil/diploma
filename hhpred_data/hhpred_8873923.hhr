@@ -1,0 +1,25 @@
+Query         EGOVIRUS_MCP_KUNK20_1_SAMN13293026_METAG_scaffold_14_5538_length_2466
+Match_columns 821
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:42:52 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/8873923.hhr -oa3m ../results/8873923.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4AYP_A MANNOSYL-OLIGOSACCHARID   9.7 4.3E+02  0.0053   26.7   2.5   57   83-141    40-100 (447)
+
+No 1
+>4AYP_A MANNOSYL-OLIGOSACCHARIDE 1,2-ALPHA-MANNOSIDASE; HYDROLASE, GLYCOSIDE HYDROLASE, GH47, CAZY, ENZYME-CARBOHYDRATE INTERACTION, MANNOSE, GLYCOSIDASE INHIBITION, QUANTUM MECHANICS; HET: Z5L, MAN; 0.85A {CAULOBACTER SP.}
+Probab=9.66  E-value=4.3e+02  Score=26.67  Aligned_cols=57  Identities=23%  Similarity=0.343  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccccCCCCCC----CCCchHHHHHHHHhhcCchHHHHHHHhhcccccceEEEECCcceeeecc
+Q EGOVIRUS_MCP_K   83 PLAASAPSTC----PLPWTIVEAVEKAALTGNAVEYNIMRTMNFIGRNILRIELPSVSLFETN  141 (821)
+Q Consensus        83 plaasapstc----plpwtiveavekaaltgnaveynimrtmnfigrnilrielpsvslfetn  141 (821)
+                      |+.......+    .+..|+|++.....+-|..-|++  +.++++.+++..-.-..|++||++
+T Consensus        40 p~s~~~~~~~~~~~~~~~tlvdsl~tl~~mgl~~e~~--~a~~~i~~~~~~~~~~~v~~fE~~  100 (447)
+T 4AYP_A           40 PVSGTSRSFFIEGHDLGLSLVEALDTLWIMGLDAEFQ--AGVDWVKANLSFDVDGNAQVFETN  100 (447)
+T ss_dssp             TTTTEEECSSSTTCCCCHHHHHHHHHHHHTTCHHHHH--HHHHHHHHHCCCCCSSEEEHHHCC
+T ss_pred             CCCCCccCccccCCccchhHHHHHHHHHHcCCHHHHH--HHHHHHHhhCCCCCCccccHhHhH
+
+

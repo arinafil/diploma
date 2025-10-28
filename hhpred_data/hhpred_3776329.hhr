@@ -1,0 +1,74 @@
+Query         EGOVIRUS_MCP_XIEF21_1_SAMN15830109_METAG_scaffold_131_888_length_2211
+Match_columns 736
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 71906
+Date          Mon Oct 20 19:31:35 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/3776329.hhr -oa3m ../results/3776329.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5J7O_A major capsid protein; v  26.9      64 0.00089   35.8   2.1  152   63-218    29-233 (645)
+  2 9B4H_X C-type lectin domain-co  20.2      80  0.0011   41.3   0.0  146  590-735  6523-6738(8572)
+
+No 1
+>5J7O_A major capsid protein; virus, capsid, double jelly-roll, VIRAL PROTEIN; 2.37A {Faustovirus}
+Probab=26.85  E-value=64  Score=35.78  Aligned_cols=152  Identities=14%  Similarity=0.146  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             HHHHhHHhhhhccccce-------------ecCCCCCCCCcccccceEEEEe-cCCCCcchhhHHhHhHhhcccccceEE
+Q EGOVIRUS_MCP_X   63 IEAVTARRVATNAINAT-------------WKCPLNLQTPLTCPMPWTVIEA-NQNSATETTVEYQIMRTIDFIGRNYIR  128 (736)
+Q Consensus        63 ieavtarrvatnainat-------------wkcplnlqtpltcpmpwtviea-nqnsatettveyqimrtidfigrnyir  128 (736)
+                      |+++.++|.|...-+..             |+.-..--++..+-  +..+.. ..+..-..++.+.|-|.=||+..-|++
+T Consensus        29 ~~~~~~~~~~~g~~d~~~t~~~~~~~~~tff~~~yk~~t~f~~e--~~~~~~~~g~~~~g~~~~~~Ip~~GDll~~~~l~  106 (645)
+T 5J7O_A           29 IKSIMCLRAKQGFSDPTPTLVDIERTHILLINSHYKPFAAMGYE--YQKTRPNTGNPTYNSTIQFSIPQFGDFFSDMVVH  106 (645)
+T ss_dssp             HHHHHHHHHHTTCSCCSCCHHHHHTTSBCSSCCCCCCBCCEEEE--EEEECCSSSSCCSSSEEEEECCSCSSEEEEEEEE
+T ss_pred             HHHHHHHHHhcCCCCCCCchhhhcCCceeEEEEEeeCcceeEEE--EEEeCCCCCCCCCCCeEEEEcCChhhheeeEEEE
+
+
+Q ss_pred             EEcCcccccEeecC-------------------------------------CCCCCCCCCCChhhhhhhHhhhhHHHHHH
+Q EGOVIRUS_MCP_X  129 IELPTVDTTQITMG-------------------------------------TGVNGGPNMQDPTQMFLGAWHRDLVPRII  171 (736)
+Q Consensus       129 ielptvdttqitmg-------------------------------------tgvnggpnmqdptqmflgawhrdlvprii  171 (736)
+                      |+||.+..+..+.-                                     ....|...-.++..-..-+|-..+--+||
+T Consensus       107 i~lp~i~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~v~~~G~~~~~~~~~~~~~~W~~~lG~~lI  186 (645)
+T 5J7O_A          107 VQLAATSASAGTVPALPAFIGADDQVLTSTSVVSATENTTSGVYTLYTQSYVNQQGTTQTVAAAATNFVRYCEYPGLRLF  186 (645)
+T ss_dssp             EEECCBCCCEEECCCCCCCCSSEEEEECSSCEEEEECCTTTTEEEEEEEEEECTTCCEECTTSEEECEEEECSSHHHHHE
+T ss_pred             EEeCcccCCCCCCCCCccccCCCccccCCccccccccccccceeEEeeeeeecCCCCcccccccccceeEecCcHHHHHh
+
+
+Q ss_pred             HhhcccccccCCeEEEEeccceeeeeeeecCcCHHH--hHhhcCCccee
+Q EGOVIRUS_MCP_X  172 SEVAFYPRSCQHKLFVYTGYDIAVHNIIFGNANKEM--NDLMAGEDRFE  218 (736)
+Q Consensus       172 sevafyprscqhklfvytgydiavhniifgnankem--ndlmagedrfe  218 (736)
+                      .+|.|+--.  ..+--++|..+-+++-.+.+.+|.-  +.++..+..++
+T Consensus       187 e~v~l~Igg--~~Id~~~ge~l~i~~el~~~~~k~~~y~~miG~~~~l~  233 (645)
+T 5J7O_A          187 KRVKFEVNG--NPLDEYTALAAIMYNKFHVPDFKLTGWKRLIGQEVPVE  233 (645)
+T ss_dssp             EEEEEEETT--EEEEEEEHHHHHHHHHHSCCHHHHHHHHHHTTCCCCEE
+T ss_pred             cEEEEEECC--EEEEEEeHHHHHHHHHhcCCHHHHHHHHHHcCCccccc
+
+
+No 2
+>9B4H_X C-type lectin domain-containing protein; Mastigoneme, Glycosylated hydroxyproline, STRUCTURAL PROTEIN; HET: FUB, HYP, GLA, NAG, A1AIO; 3.1A {Chlamydomonas reinhardtii}
+Probab=20.22  E-value=80  Score=41.28  Aligned_cols=146  Identities=18%  Similarity=0.247  Sum_probs=0.0  Template_Neff=1.100
+
+Q ss_pred             HHHHHHHHHhCCccccCcceeeeccccCC---CCCCCeEEEEeeecccc---cCceeeEeccccCCCCccc-----CcHH
+Q EGOVIRUS_MCP_X  590 LYIMALLLWFIPEDSFGIESLRLYPHQKN---NTEAPIIAGLHIQNEQS---QGKTLYSWDMLNLQTPAHM-----GLKP  658 (736)
+Q Consensus       590 lyimalllwfipedsfgieslrlyphqkn---nteapiiaglhiqneqs---qgktlyswdmlnlqtpahm-----glkp  658 (736)
+                      +-++.+|+++.--.|+-....|.+-||+-   -||.--+|||...+--.   ..|.-|.|.|.-+-+.-+.     +|--
+T Consensus      6523 LD~ImVLFfLlhlaSTLldeVRaLqhqrllqrAtegeplagltadeLfRrkrRvKKRyt~rmtpFW~fWRVVTWliqIaA 6602 (8572)
+T 9B4H_X         6523 PDWIMVLFILLHLASTLLDCVRALQHQRLLQRATEGEPLAGLTADELFRRKRRVKKRYTWRMTPFWVAWEVASCLIQIAA 6602 (8572)
+
+
+Q ss_pred             hHhcCceeeccccccCCCCCCccccCCcCe----------------eEEEEeCCCchhcCc---cceee-----------
+Q EGOVIRUS_MCP_X  659 LLSNMGIISFTPLMIPNQMPYGIYDQNLSG----------------YITCKFENPESSMGH---NDFIN-----------  708 (736)
+Q Consensus       659 llsnmgiisftplmipnqmpygiydqnlsg----------------yitckfenpessmgh---ndfin-----------  708 (736)
+                      ++.-.-+..+.-.-|+...-|.|||.+|+.                ||.-....-+.+-.+   ||.|+           
+T Consensus      6603 VvVFY~FWfVLS~giptattydVYDaDLnAparffmInkdergwnpYlAsvLtAFqTrsdlkptNdtIDfaAtAaamapp 6682 (8572)
+T 9B4H_X         6603 LVVLYWFVFVASPGIPTATTYDVYDADVNAPARFFMINKDERGWNPYLASVLQAFQTRSDLKPTNDTIDLAATAAAMAPP 6682 (8572)
+
+
+Q ss_pred             -----------------------------eccCCeEEEEEeecceeEEehhhEeec
+Q EGOVIRUS_MCP_X  709 -----------------------------MRRGKLKVVSIGINGVALVNLSLFRLV  735 (736)
+Q Consensus       709 -----------------------------mrrgklkvvsigingvalvnlslfrlv  735 (736)
+                                                   +|.-.+-.+++-+-+.+.+-|.++|++
+T Consensus      6683 sMPprggdyrWLlpDDVsgl~aLgDmmSrLrNMEyLMnlVRVaAMaVLLLLMVRIM 6738 (8572)
+T 9B4H_X         6683 SMPPRGGDYRWLLPDDVSGLHALGDMYSYLDNMEYLWNLYFVLQSLVLLMLMVRLM 6738 (8572)
+
+

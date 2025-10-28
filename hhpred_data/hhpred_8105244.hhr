@@ -1,0 +1,50 @@
+Query         EGOVIRUS_MCP_ONAT22_1_SAMEA6814535_METAG_scaffold_47_3073_length_2214
+Match_columns 737
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:12:18 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/8105244.hhr -oa3m ../results/8105244.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FHK_C LysR family transcripti  32.0 2.7E+02  0.0034   21.7   5.4   70  541-619    10-79  (207)
+  2 9AST_R Chemokine XC receptor 1  25.7   1E+02  0.0012   31.0   2.6   71  392-472   456-526 (532)
+
+No 1
+>5FHK_C LysR family transcriptional regulator; AphB, LysR-type, transcriptional regulator, tcpPH activation, TRANSCRIPTION; 1.905A {Vibrio vulnificus}
+Probab=32.03  E-value=2.7e+02  Score=21.69  Aligned_cols=70  Identities=19%  Similarity=0.321  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             HHhhchhhcHhchhHHHHHHHhcCCCEEEEecccccccccccceeecCCceeEeeEEEEEeeCCCCCcceeeeEecccc
+Q EGOVIRUS_MCP_O  541 KIGVKLLQVGYQTLPCIREFLSKLPNIYITTEWNDMTTDINTTRFDINNDLYIQGIILWFIPTDNNNIESLRLYPCHMI  619 (737)
+Q Consensus       541 kigvkllqvgyqtlpcireflsklpniyittewndmttdinttrfdinndlyiqgiilwfiptdnnnieslrlypchmi  619 (737)
+                      +||+--.-..+-..+.+.+|..+.|++-+...-.+....+..-..|         +.+.+-+.+..+++..+|....+.
+T Consensus        10 ~Ig~~~~~~~~~l~~~l~~~~~~~p~i~i~~~~~~~~~~l~~~~~D---------~~i~~~~~~~~~~~~~~l~~~~~~   79 (207)
+T 5FHK_C           10 KISTPYNLTKRMMMPMLNGFMSQYPEINIELTTESNADQLDPTEWD---------VIFRVGPQRDSSLIARKIGSVKDI   79 (207)
+T ss_dssp             EEEEETTTCCCCCHHHHHHHHHHCTTEEEEEEEEC---CCCGGGCS---------EEEEESCC--CCSEEEEEEEEEEE
+T ss_pred             EEecCHHHHHHhchHhHHHHHHHCCCeEEEEEecCCcccCCcCCce---------EEEEeeCCCCcceeEEEeceeceE
+
+
+No 2
+>9AST_R Chemokine XC receptor 1,Non structural polyprotein; GPCR, XCL1, Membrane protein, SIGNALING PROTEIN; 3.07A {Homo sapiens}
+Probab=25.73  E-value=1e+02  Score=30.97  Aligned_cols=71  Identities=24%  Similarity=0.232  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCcccCCCCCCCCcccccccccccCCcccccccCCcCccchhcccccCCeeeccccccCCCCeeccCCCccCCCCCccc
+Q EGOVIRUS_MCP_O  392 DGNKIGAEGTDPRFGWVDERSLGRYGDPSFRKDTADTGDVSANYNAMEGNVLNVPIGYNRRDNIVPATPSFTGGSGGSLW  471 (737)
+Q Consensus       392 dgnkigaegtdprfgwvderslgrygdpsfrkdtadtgdvsanynamegnvlnvpigynrrdnivpatpsftggsggslw  471 (737)
+                      ||.||...||--.-.-+-+..|=.-...-+-+-++.++..+.....-.|          ++.+.......-.|||||+.|
+T Consensus       456 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----------~~~~~~~~~~~~~~~~~~~~~  525 (532)
+T 9AST_R          456 DGKKITVTGTLWNGNKIIDERLITPDGSMLFRVTINSGGSGHHHHHHHH----------WSHPQFEKGGGSGGGSGGSAW  525 (532)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCceEEEEEeEecCCeeeeeeeeCCCCCeEEEEEecCCCCCCCCCCcCc----------ccCCccccCCCCCCCCCCCcC
+
+
+Q ss_pred             c
+Q EGOVIRUS_MCP_O  472 S  472 (737)
+Q Consensus       472 s  472 (737)
+                      |
+T Consensus       526 ~  526 (532)
+T 9AST_R          526 S  526 (532)
+T ss_dssp             -
+T ss_pred             C
+
+

@@ -1,0 +1,152 @@
+Query         EGOVIRUS_MCP_ONAT22_1_SAMEA6814509_METAG_scaffold_21_4254_length_2316
+Match_columns 771
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:33:10 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/3601330.hhr -oa3m ../results/3601330.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7YJL_A Major capsid protein; M  35.4   1E+02  0.0012   32.4   4.6   91  111-210    61-152 (459)
+  2 Q5IZI7 MCP_ASFWA Major capsid   25.7 1.7E+02  0.0021   33.7   4.7  102  112-215    92-235 (646)
+  3 Q8JJY5 CAPSD_SFAVA Major capsi  23.5 2.1E+02  0.0026   30.3   4.5   89  112-215    77-167 (461)
+  4 Q7T6Y5 CAPS4_MIMIV Probable ca  22.6 2.1E+02  0.0026   31.4   4.4   91  112-215    58-151 (512)
+  5 6OJN_A Major capsid protein; i  21.7 1.7E+02  0.0021   30.7   3.4   80  112-203    68-147 (463)
+  6 Q05815 MCP_IIV6 Major capsid p  21.3 2.2E+02  0.0028   30.0   4.2   93  111-215    66-160 (467)
+
+No 1
+>7YJL_A Major capsid protein; MCP, Melbournevirus, giant virus, major capsid protein, VIRAL PROTEIN;{Melbournevirus}
+Probab=35.43  E-value=1e+02  Score=32.41  Aligned_cols=91  Identities=15%  Similarity=0.294  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             hcchhhcccccccccceeeccceeeeeeccccchhhccchhcccccccccccccHHHheeeeccccCCCeeeEEeccccc
+Q EGOVIRUS_MCP_O  111 EYNIMRNLDFIGRNILRFELPMINLVTLANSVDFSTYGDAAENTYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGYDI  190 (771)
+Q Consensus       111 eynimrnldfigrnilrfelpminlvtlansvdfstygdaaentylgawhrdlpariinkislyprssnhvlfeytgydi  190 (771)
+                      .+.|-|.-|++..-.|+++||.+....-+++..+.       ..+--+|...+.-++|.+++++--  +.++-+++|..+
+T Consensus        61 ~~~I~~~GDll~~~~l~i~lP~i~~~~~~~~~~~~-------~~~~~~w~~~lg~~lI~~i~l~ig--g~~Id~~~g~~l  131 (459)
+T 7YJL_A           61 SASVNRSGDYVLNTWLRVRLPLVAIRPTNTGGAIN-------ANATIRWTRNFMHNLVEKVNITFN--DLIVHEFDSYWF  131 (459)
+T ss_dssp             CCBCCSSSCBCCCCEEEEEECCEECCSCSSSCSCS-------SCCCBCCCSSSHHHHCCCCEEECS--SCCCCCCCHHHH
+T ss_pred             EEEeCCCcceeeEEEEEEEcCcceecCCCCCCccc-------ccceeEecccHHhHhhcEEEEEEC--CEEEEEEehhHH
+
+
+Q ss_pred             hhhhhhhccchHHHh-hHhcC
+Q EGOVIRUS_MCP_O  191 FLHNLIFGNERKEMN-DLMAG  210 (771)
+Q Consensus       191 flhnlifgnerkemn-dlmag  210 (771)
+                      .+++.++....|.-. +.|.|
+T Consensus       132 ~i~~~l~~~~~k~~~y~~miG  152 (459)
+T 7YJL_A          132 DFNSQFNIDASKRVGYRNMIG  152 (459)
+T ss_dssp             HHHTTTTSCSSTHHHHHHTSS
+T ss_pred             HHhhhhcCChHHHHHHHHHcC
+
+
+No 2
+>Q5IZI7 MCP_ASFWA Major capsid protein OS=African swine fever virus (isolate Warthog/Namibia/Wart80/1980) OX=561444 GN=War-091 PE=3 SV=1
+Probab=25.72  E-value=1.7e+02  Score=33.74  Aligned_cols=102  Identities=17%  Similarity=0.061  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             cchhhcccccccccceeecccee-------------------eeeeccccchhhccchhcc-------------------
+Q EGOVIRUS_MCP_O  112 YNIMRNLDFIGRNILRFELPMIN-------------------LVTLANSVDFSTYGDAAEN-------------------  153 (771)
+Q Consensus       112 ynimrnldfigrnilrfelpmin-------------------lvtlansvdfstygdaaen-------------------  153 (771)
+                      +.|-|.-||+..-.|+++||-|.                   +.++..+.--|.-...++.                   
+T Consensus        92 ~~Ip~~GDll~~m~l~i~Lp~i~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~y~~~d~~~~~~~~~~~~  171 (646)
+T Q5IZI7           92 FGIPQYGDFFHDMVGHHILGACHSSWQDAPIQGTSQMGAHGQLQTFPRNGYDWDNQTPLEGAVYTLVDPFGRPIVPGTKN  171 (646)
+T ss_pred             EEcCCCCCeeeEEEEEEEccccCccccCCCCCCcccccccccccccCCCCCCcCCCCCccCcceeeeCCCCCccCCCCcc
+
+
+Q ss_pred             --cccccccccccHHHheeeeccccCCCeeeEEeccccchhhhhhhccchHH--HhhHhcCCccce
+Q EGOVIRUS_MCP_O  154 --TYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGYDIFLHNLIFGNERKE--MNDLMAGEDRFE  215 (771)
+Q Consensus       154 --tylgawhrdlpariinkislyprssnhvlfeytgydiflhnlifgnerke--mndlmagedrfe  215 (771)
+                        .+.-+|-..+..++|.+++++--.  .++=+|+|..+.+++-++..+.|.  .+.++..+..++
+T Consensus       172 ~~~~~~~w~~~~G~~LIe~V~l~IgG--~~ID~~~ge~l~i~~el~~~~~k~~~y~~liG~~~~l~  235 (646)
+T Q5IZI7          172 AYRNLVYYCEYPGERLYENVRFDVNG--NSLDEYSSDVTTLVRKFCIPGDKMTGYKHLVGQEVSVE  235 (646)
+T ss_pred             ccccceeccChHHHHHhCEEEEEECC--EEEEEEeHHHHHHHHHhcCCcchHHHHHHHcCCccccc
+
+
+No 3
+>Q8JJY5 CAPSD_SFAVA Major capsid protein OS=Spodoptera frugiperda ascovirus 1a OX=113370 GN=MCP PE=3 SV=1
+Probab=23.47  E-value=2.1e+02  Score=30.25  Aligned_cols=89  Identities=16%  Similarity=0.194  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cchhhcccccccccceeeccceeeeeeccccchhhccchhcccccccccccccHHHheeeeccccCCCeeeEEeccccch
+Q EGOVIRUS_MCP_O  112 YNIMRNLDFIGRNILRFELPMINLVTLANSVDFSTYGDAAENTYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGYDIF  191 (771)
+Q Consensus       112 ynimrnldfigrnilrfelpminlvtlansvdfstygdaaentylgawhrdlpariinkislyprssnhvlfeytgydif  191 (771)
+                      +.|-|.-|++..-.|+++||-|..             .+....+--+|...+...+|.+++|+--  ..++-+++|--+.
+T Consensus        77 ~~i~~~gDll~~~~l~i~LP~i~~-------------~~~~~~~~~~w~~~lg~~lI~~i~l~Ig--g~~Id~~~g~~l~  141 (461)
+T Q8JJY5           77 MPINASGDYLLSLTAYATLSAGTI-------------TGAGDASVVSWLPKLGHKLIKSVKLKID--GKPLVELSSSFMD  141 (461)
+T ss_pred             EECCCccceeeEEEEEEEecCcee-------------cCCCCccceeccccHHhHhhCEEEEEEC--CEEEEEEeHHHHH
+
+
+Q ss_pred             hhhhhhccchHH--HhhHhcCCccce
+Q EGOVIRUS_MCP_O  192 LHNLIFGNERKE--MNDLMAGEDRFE  215 (771)
+Q Consensus       192 lhnlifgnerke--mndlmagedrfe  215 (771)
+                      +++.++....|.  .+.+....+.+.
+T Consensus       142 i~~el~~~~~k~~~y~~miG~~~~l~  167 (461)
+T Q8JJY5          142 MWSEFMIDSGNYEAYNNMVGGEYEFN  167 (461)
+T ss_pred             HHHHhcCCchhHHHHHHHcCCCcccc
+
+
+No 4
+>Q7T6Y5 CAPS4_MIMIV Probable capsid protein 4 OS=Acanthamoeba polyphaga mimivirus OX=212035 GN=MIMI_R441 PE=3 SV=2
+Probab=22.56  E-value=2.1e+02  Score=31.43  Aligned_cols=91  Identities=14%  Similarity=0.277  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             cchhhcccccccccceeeccceeeeeeccccchhhccchh---cccccccccccccHHHheeeeccccCCCeeeEEeccc
+Q EGOVIRUS_MCP_O  112 YNIMRNLDFIGRNILRFELPMINLVTLANSVDFSTYGDAA---ENTYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGY  188 (771)
+Q Consensus       112 ynimrnldfigrnilrfelpminlvtlansvdfstygdaa---entylgawhrdlpariinkislyprssnhvlfeytgy  188 (771)
+                      +.|-|+-|++..-.|+++||-|.-+.           +..   .....-+|.+.+...+|.+++++-  ...++-+++|-
+T Consensus        58 ~~I~~~GDll~~~yl~i~lP~i~~~~-----------~~~~~~~~~~~~~wv~~lG~~iI~~i~l~i--gg~~Id~~~g~  124 (512)
+T Q7T6Y5           58 CTLSKSGDMINKIYVYIELPSVNVFY-----------DESGNLDKFKKFAWVRNIGYALIKDVSIEI--GGKLIDKQYGE  124 (512)
+T ss_pred             EEcCCcccccceEEEEEEcCcccccc-----------CCCCCccccccceecchHHHHHHcEEEEEE--CCEEEEEEeHH
+
+
+Q ss_pred             cchhhhhhhccchHHHhhHhcCCccce
+Q EGOVIRUS_MCP_O  189 DIFLHNLIFGNERKEMNDLMAGEDRFE  215 (771)
+Q Consensus       189 diflhnlifgnerkemndlmagedrfe  215 (771)
+                      -+.+++-++...++..+.+....+...
+T Consensus       125 ~l~i~~el~~~~~~~~~~miG~~~~l~  151 (512)
+T Q7T6Y5          125 WMYIWSQVTNKSDEGLDKMIGNIPLLY  151 (512)
+T ss_pred             HHHHHHHhccccHHHHHHHcCCCcccc
+
+
+No 5
+>6OJN_A Major capsid protein; icosahedral, trimers, outer coat, anchor proteins, zip proteins, VIRAL PROTEIN; 8.6A {Singapore grouper iridovirus}
+Probab=21.72  E-value=1.7e+02  Score=30.72  Aligned_cols=80  Identities=15%  Similarity=0.132  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             cchhhcccccccccceeeccceeeeeeccccchhhccchhcccccccccccccHHHheeeeccccCCCeeeEEeccccch
+Q EGOVIRUS_MCP_O  112 YNIMRNLDFIGRNILRFELPMINLVTLANSVDFSTYGDAAENTYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGYDIF  191 (771)
+Q Consensus       112 ynimrnldfigrnilrfelpminlvtlansvdfstygdaaentylgawhrdlpariinkislyprssnhvlfeytgydif  191 (771)
+                      +.|-|+-|++..-.|+++||-+....-..          .....--+|...+.-++|.+++++--..  ++-+++|..+.
+T Consensus        68 ~~I~~~GDll~~~~L~i~lp~i~~~~~~~----------~~~~~~~~w~~~lg~~lI~~i~l~igg~--~Id~~~~~~l~  135 (463)
+T 6OJN_A           68 VGVPRSGDYVLNAWLTLKTPEIKLLETNR----------LGANGTVRWTKNLMHNAVEHASLTFNDI--CAQQFNTAYLD  135 (463)
+T ss_dssp             EECCCSSSBCCCEECEECCCCCCCSCSCC----------CTTCCCTTSCCCSHHHHCCEEEEEETTE--EEEEEEHHHHH
+T ss_pred             EEcCCCcceeEEEEEEEEcCceeccCccc----------CCCCCceeecccHHhHhhcEEEEEECCE--EEEEEeHHHHH
+
+
+Q ss_pred             hhhhhhccchHH
+Q EGOVIRUS_MCP_O  192 LHNLIFGNERKE  203 (771)
+Q Consensus       192 lhnlifgnerke  203 (771)
+                      +++-++...-|.
+T Consensus       136 i~~~l~~~~~k~  147 (463)
+T 6OJN_A          136 AWTQFNMCEGKR  147 (463)
+T ss_dssp             HTTTTTCCSTHH
+T ss_pred             HHHhhcCChhHH
+
+
+No 6
+>Q05815 MCP_IIV6 Major capsid protein OS=Invertebrate iridescent virus 6 OX=176652 GN=MCP PE=1 SV=2
+Probab=21.26  E-value=2.2e+02  Score=29.95  Aligned_cols=93  Identities=15%  Similarity=0.232  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             hcchhhcccccccccceeeccceeeeeeccccchhhccchhcccccccccccccHHHheeeeccccCCCeeeEEeccccc
+Q EGOVIRUS_MCP_O  111 EYNIMRNLDFIGRNILRFELPMINLVTLANSVDFSTYGDAAENTYLGAWHRDLPARIINKISLYPRSSNHVLFEYTGYDI  190 (771)
+Q Consensus       111 eynimrnldfigrnilrfelpminlvtlansvdfstygdaaentylgawhrdlpariinkislyprssnhvlfeytgydi  190 (771)
+                      .+.|-+.-|++..-.|+++||-|....-..          ....+--+|..++.-.+|.+++|+--  ..++-+++|.-+
+T Consensus        66 ~~~i~~~gDll~~~~L~i~LP~i~~~~~~~----------~~~~~~~~w~~~lg~~lI~~i~l~ig--g~~Id~~~g~~l  133 (467)
+T Q05815           66 SASISRAGDYLLYTWLRVRIPSVTLLSTNQ----------FGANGRIRWCRNFMHNLIRECSITFN--DLVAARFDHYHL  133 (467)
+T ss_pred             EEEeCCccceeeEEEEEEEcCceecCCCcc----------cCCCceEEecccHHhHhhcEEEEEEC--CEEEEEEEhHHH
+
+
+Q ss_pred             hhhhhhhccchHH--HhhHhcCCccce
+Q EGOVIRUS_MCP_O  191 FLHNLIFGNERKE--MNDLMAGEDRFE  215 (771)
+Q Consensus       191 flhnlifgnerke--mndlmagedrfe  215 (771)
+                      .+++.++....|.  .+.++...+...
+T Consensus       134 ~i~~~l~~~~~~~~~~~~~iG~~~~~~  160 (467)
+T Q05815          134 DFWAAFTTPASKAVGYDNMIGNVSALI  160 (467)
+T ss_pred             HHHHHhcCCHHHHHHHHHhcCCccccc
+
+

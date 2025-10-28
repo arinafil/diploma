@@ -1,0 +1,264 @@
+Query         EGOVIRUS_MCP_ANAN16_1_SAMN03203003_S001_METAG_scaffold_329_2083_length_249
+Match_columns 82
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 81076
+Date          Mon Oct 20 22:02:05 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/uniprot_sprot_vir70/uniprot_sprot_vir70 -o ../results/7401994.hhr -oa3m ../results/7401994.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NMZ_B Neurturin; cystine knot  49.3      17 0.00021   20.8   0.9   19   22-41     17-35  (101)
+  2 7AB8_B Glial cell line-derived  40.1      32  0.0004   18.7   1.1   19   22-41     15-33  (98)
+  3 1BET_A BETA-NERVE GROWTH FACTO  39.5      25 0.00031   22.7   0.8   35   19-53     28-63  (107)
+  4 6JHU_A Biotin/lipoate protein   38.0      72 0.00089   22.7   2.8   24   45-68    148-171 (283)
+  5 2V5E_B GLIAL CELL LINE-DERIVED  35.7      39 0.00048   18.6   1.0   19   22-41     18-36  (101)
+  6 2EJ9_A Putative biotin ligase;  35.1      98  0.0012   20.7   3.0   24   45-68     99-126 (237)
+  7 6CK0_B Biotin acetyl coenzyme   31.3   1E+02  0.0013   21.1   2.6   24   45-68    115-138 (220)
+  8 7QYI_A Pilus assembly protein;  28.5 1.7E+02  0.0022   16.3   2.9   42   23-64     83-124 (125)
+  9 5VAF_C Accessory Sec system pr  28.2 1.6E+02   0.002   21.6   3.3   41   22-63     95-135 (533)
+ 10 9FIK_A Neurotrophin-3; NTF3, p  27.1      63 0.00078   21.0   1.1   35   19-53     36-71  (120)
+ 11 3BFM_A Biotin protein ligase-l  25.9 1.6E+02   0.002   20.2   2.9   24   45-68    100-130 (235)
+ 12 8ZEP_D Double-stranded RNA-spe  25.3 1.4E+02  0.0017   23.1   2.7   17   50-66    153-169 (495)
+ 13 2DXU_B biotin--[acetyl-CoA-car  22.9   2E+02  0.0025   19.6   2.9   24   45-68    108-131 (235)
+ 14 7PWE_A Ferredoxin-thioredoxin   22.8      44 0.00055   20.5  -0.2    8   35-42    127-134 (196)
+ 15 O48413 GP59_BPSP1 Putative gen  22.4      67 0.00083   21.6   0.5   22    1-22     35-56  (56)
+ 16 1TPM_A TISSUE-TYPE PLASMINOGEN  20.6 1.1E+02  0.0013   19.4   1.1   12   38-49     32-43  (50)
+ 17 1BND_A BRAIN DERIVED NEUROTROP  20.3      95  0.0012   20.4   0.9   35   19-53     37-72  (119)
+
+No 1
+>5NMZ_B Neurturin; cystine knot, neurotrophic factor, GFL, signaling protein; HET: GOL; 1.6A {Homo sapiens} SCOP: g.17.1.0
+Probab=49.34  E-value=17  Score=20.79  Aligned_cols=19  Identities=11%  Similarity=0.258  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ccCCCCCCCCceeeccccee
+Q EGOVIRUS_MCP_A   22 EDINWNGDLTPQIYGSQYCK   41 (82)
+Q Consensus        22 edinwngdltpqiygsqyck   41 (82)
+                      +|+.|+- +.|+-|.-.||+
+T Consensus        17 ~~lg~~~-i~P~~~~~~~C~   35 (101)
+T 5NMZ_B           17 SELGLGY-ASDETVLFRYCA   35 (101)
+T ss_dssp             GGGTSSC-CCCCEEEEEEEE
+T ss_pred             HHcCCCC-CCCCEEECeecc
+
+
+No 2
+>7AB8_B Glial cell line-derived neurotrophic factor; VERTEBRATE DEVELOPMENT, PART OF THE RET-GFL-GFRA COMPLEX, NEUROTROPHIC FACTOR, SIGNALING PROTEIN; HET: PEG, NAG, EDO; 2.2A {Danio rerio} SCOP: g.17.1.2
+Probab=40.08  E-value=32  Score=18.74  Aligned_cols=19  Identities=21%  Similarity=0.310  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             ccCCCCCCCCceeeccccee
+Q EGOVIRUS_MCP_A   22 EDINWNGDLTPQIYGSQYCK   41 (82)
+Q Consensus        22 edinwngdltpqiygsqyck   41 (82)
+                      +|+.|+- +.|+.|...||.
+T Consensus        15 ~~lg~~~-~~P~~~~~~~C~   33 (98)
+T 7AB8_B           15 TDLDLGY-RTKEELIFRYCS   33 (98)
+T ss_dssp             GGGCSSC-CCCCEEEEEEEE
+T ss_pred             HHcCCCc-CCCCeEEeeeee
+
+
+No 3
+>1BET_A BETA-NERVE GROWTH FACTOR; GROWTH FACTOR; 2.3A {Mus musculus} SCOP: g.17.1.3
+Probab=39.53  E-value=25  Score=22.65  Aligned_cols=35  Identities=23%  Similarity=0.518  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cccccCCCCCCCCceeecccceeec-CCCCceeeEe
+Q EGOVIRUS_MCP_A   19 DICEDINWNGDLTPQIYGSQYCKCS-SSDHRCAGIN   53 (82)
+Q Consensus        19 dicedinwngdltpqiygsqyckcs-ssdhrcagin   53 (82)
+                      .|-++|+-||+...|.+-.-.|.=. +.++.|.||+
+T Consensus        28 ~v~~~~~~~~~~~~Q~F~~t~C~~~~~~~~~C~Gid   63 (107)
+T 1BET_A           28 TVLAEVNINNSVFRQYFFETKCRASNPVESGCRGID   63 (107)
+T ss_dssp             EECSEEEETTEEEECCEEEEEESCSCSBTTBSTTCC
+T ss_pred             EEEEeeecCCceeeEEEEEEEccCCCCCCCCccccc
+
+
+No 4
+>6JHU_A Biotin/lipoate protein ligase-like protein; Enzyme, Biotin Protein ligase, Ligase; HET: BT5; 1.97A {Leishmania major}
+Probab=37.97  E-value=72  Score=22.72  Aligned_cols=24  Identities=25%  Similarity=0.589  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCCceeeEeeCCCCcEEEEEEEec
+Q EGOVIRUS_MCP_A   45 SDHRCAGINMNSNGRLRVVSIGIN   68 (82)
+Q Consensus        45 sdhrcaginmnsngrlrvvsigin   68 (82)
+                      .+..++||-....+.--|+.||||
+T Consensus       148 ~~~KigGIL~e~~~~~~viGIGIN  171 (283)
+T 6JHU_A          148 NHKKIGGTLIESDGDYLIIGIGMN  171 (283)
+T ss_dssp             TTEEEEEEEEEEETTEEEEEEEEC
+T ss_pred             CCeEeeEEEEEECCCEEEEEEEEE
+
+
+No 5
+>2V5E_B GLIAL CELL LINE-DERIVED NEUROTROPHIC FACTOR; RECEPTOR-GLYCOPROTEIN COMPLEX, ALTERNATIVE SPLICING, CELL MEMBRANE, GROWTH FACTOR, LIGAND-CORECEPTOR, GPI-ANCHOR, LIPOPROTEIN, POLYMORPHISM, GLYCOPROTEIN, MEMBRANE, RECEPTOR, SECRETED; HET: YYJ, GU4, NAG, EDO; 2.35A {RATTUS NORVEGICUS} SCOP: g.17.1.2
+Probab=35.70  E-value=39  Score=18.62  Aligned_cols=19  Identities=21%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             ccCCCCCCCCceeeccccee
+Q EGOVIRUS_MCP_A   22 EDINWNGDLTPQIYGSQYCK   41 (82)
+Q Consensus        22 edinwngdltpqiygsqyck   41 (82)
+                      +++.|+- +.|+.|...||.
+T Consensus        18 ~~lg~~~-~~P~~~~~~~C~   36 (101)
+T 2V5E_B           18 TDLGLGY-ETKEELIFRYCS   36 (101)
+T ss_dssp             GGGCSSC-CCSCEEEEEEEE
+T ss_pred             HHcCCCC-CCCCEEEcEEec
+
+
+No 6
+>2EJ9_A Putative biotin ligase; Biotin Biosynthesis, Monomer, Structural Genomics, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN Structural; HET: BTN; 2.0A {Methanocaldococcus jannaschii}
+Probab=35.10  E-value=98  Score=20.67  Aligned_cols=24  Identities=25%  Similarity=0.403  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CC----CceeeEeeCCCCcEEEEEEEec
+Q EGOVIRUS_MCP_A   45 SD----HRCAGINMNSNGRLRVVSIGIN   68 (82)
+Q Consensus        45 sd----hrcaginmnsngrlrvvsigin   68 (82)
+                      .+    ..++||-..+.+.--++.||||
+T Consensus        99 ~~~~~~~Ki~GiL~e~~~~~~viGiGiN  126 (237)
+T 2EJ9_A           99 KVNDNYKKLGGILTELTDDYMIIGIGIN  126 (237)
+T ss_dssp             EETTEEEEEEEEEEEECSSEEEEEEEEC
+T ss_pred             ccCCCccEEEEEEEEecCCeEEEEEEEE
+
+
+No 7
+>6CK0_B Biotin acetyl coenzyme A carboxylase synthetase; SSGCID, biotin-[acetyl-CoA-carboxylase] ligase activity, Structural Genomics, Seattle Structural Genomics Center for Infectious Disease, LIGASE; HET: SO4, EDO, F5D; 2.25A {Helicobacter pylori (strain G27)}
+Probab=31.29  E-value=1e+02  Score=21.14  Aligned_cols=24  Identities=33%  Similarity=0.623  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCCceeeEeeCCCCcEEEEEEEec
+Q EGOVIRUS_MCP_A   45 SDHRCAGINMNSNGRLRVVSIGIN   68 (82)
+Q Consensus        45 sdhrcaginmnsngrlrvvsigin   68 (82)
+                      .+.+.+||-....+.--++.||||
+T Consensus       115 ~~~Ki~GiL~e~~~~~~viGiGiN  138 (220)
+T 6CK0_B          115 GDQKIGGVLVNVYKGMRVCGIGVN  138 (220)
+T ss_dssp             TTEEEEEEEEEEETTEEEEEEEEE
+T ss_pred             CCeEEEEEEEEEeCCeEEEEEEEE
+
+
+No 8
+>7QYI_A Pilus assembly protein; type IV pilin, DNA BINDING PROTEIN; NMR {Legionella pneumophila}
+Probab=28.45  E-value=1.7e+02  Score=16.25  Aligned_cols=42  Identities=14%  Similarity=0.148  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCCCCCCCCceeecccceeecCCCCceeeEeeCCCCcEEEEE
+Q EGOVIRUS_MCP_A   23 DINWNGDLTPQIYGSQYCKCSSSDHRCAGINMNSNGRLRVVS   64 (82)
+Q Consensus        23 dinwngdltpqiygsqyckcsssdhrcaginmnsngrlrvvs   64 (82)
+                      .|.++....+.--+....-|........-|-.+..|++|+.+
+T Consensus        83 ~i~F~~~G~~~~~~~~i~~~~~~~~~~~~i~i~~~G~v~~~~  124 (125)
+T 7QYI_A           83 RIIISNIPNRAMSNGKFILNNKRTNEKVVVTLNRLGRVRVGG  124 (125)
+T ss_dssp             CEEECSSTTSCCCCCEEEEEETTTTEEEEEECCCCCCCCCCC
+T ss_pred             eEEEeCCCCccccccEEEEecCCCCcEEEEEEcCCCceEEcc
+
+
+No 9
+>5VAF_C Accessory Sec system protein Asp1; O-glycosylation, bacterial adhesin, accessory secretion, CELL ADHESION; 2.771A {Streptococcus gordonii}
+Probab=28.22  E-value=1.6e+02  Score=21.60  Aligned_cols=41  Identities=17%  Similarity=0.358  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ccCCCCCCCCceeecccceeecCCCCceeeEeeCCCCcEEEE
+Q EGOVIRUS_MCP_A   22 EDINWNGDLTPQIYGSQYCKCSSSDHRCAGINMNSNGRLRVV   63 (82)
+Q Consensus        22 edinwngdltpqiygsqyckcsssdhrcaginmnsngrlrvv   63 (82)
+                      +|++|..+..+ +|+...=.-...+..-|=|.++..|.+..|
+T Consensus        95 ~dl~~p~~~~~-~~~~~~~~~~~~~~~~a~i~~~~~g~v~~v  135 (533)
+T 5VAF_C           95 KDLEWEDDCEF-IYTPFLIIVRRQGQLYAHVEFGVEGFISFI  135 (533)
+T ss_dssp             GGSCCCSCEEE-EECSSSEEEEETTEEEEEEEECTTSCEEEE
+T ss_pred             HHCCCCCCeEE-EecCCEEEEEECCEEEEEEEECCCceEEEE
+
+
+No 10
+>9FIK_A Neurotrophin-3; NTF3, phage display, X ray crystallography, antibody, IMMUNE SYSTEM; HET: PEG, GOL; 1.86A {Homo sapiens}
+Probab=27.08  E-value=63  Score=21.03  Aligned_cols=35  Identities=20%  Similarity=0.395  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             cccccCCCCCCCCceeecccceeec-CCCCceeeEe
+Q EGOVIRUS_MCP_A   19 DICEDINWNGDLTPQIYGSQYCKCS-SSDHRCAGIN   53 (82)
+Q Consensus        19 dicedinwngdltpqiygsqyckcs-ssdhrcagin   53 (82)
+                      +|-.+++-|++...|.+-...|.=. +.+..|.||+
+T Consensus        36 ~V~~~~~~~~~~~~Q~F~~~~C~~~~~~~~~C~gi~   71 (120)
+T 9FIK_A           36 TVLGEIKTGNSPVKQYFYETRCKEARPVKNGCRGID   71 (120)
+T ss_dssp             EECSEECSSSSCEECCEEEEEESCSCSBTTBSTTCC
+T ss_pred             EEEeeeecCCCcceEEEEEEEecCCCCCCCCCCCcc
+
+
+No 11
+>3BFM_A Biotin protein ligase-like protein of unknown function; Structural genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-2, unknown function; HET: 2PE, MSE; 1.7A {Silicibacter sp.}
+Probab=25.89  E-value=1.6e+02  Score=20.16  Aligned_cols=24  Identities=17%  Similarity=0.430  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCceeeEeeCCCCc-------EEEEEEEec
+Q EGOVIRUS_MCP_A   45 SDHRCAGINMNSNGR-------LRVVSIGIN   68 (82)
+Q Consensus        45 sdhrcaginmnsngr-------lrvvsigin   68 (82)
+                      .+.+++||-.....+       .-|+.||||
+T Consensus       100 ~~~Ki~GiL~e~~~~~~~~~~~~~viGiGiN  130 (235)
+T 3BFM_A          100 NGARCGRLRIAASTDDPDTQPDWLVVGLDLP  130 (235)
+T ss_dssp             TTEEEEEEEEEESCCCTTSCCSCEEEEEEEE
+T ss_pred             CCEEEEEEEEEeCCCCCCCCCCEEEEEEEee
+
+
+No 12
+>8ZEP_D Double-stranded RNA-specific adenosine deaminase adr-2; adenosine deaminase, RNA BINDING PROTEIN; HET: IHP;{Caenorhabditis elegans}
+Probab=25.27  E-value=1.4e+02  Score=23.14  Aligned_cols=17  Identities=24%  Similarity=0.614  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeEeeCCCCcEEEEEEE
+Q EGOVIRUS_MCP_A   50 AGINMNSNGRLRVVSIG   66 (82)
+Q Consensus        50 aginmnsngrlrvvsig   66 (82)
+                      |||-|+.++.++|||+|
+T Consensus       153 A~ivl~~~~~~~vvslg  169 (495)
+T 8ZEP_D          153 ASVFLKINGNLQIIALS  169 (495)
+T ss_dssp             EEEEEEETTEEEEEEEE
+T ss_pred             EEEEeecCCCeEEEEEe
+
+
+No 13
+>2DXU_B biotin--[acetyl-CoA-carboxylase] ligase; Biotin Biosynthesis, Dimer, Structural Genomics, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN Structural; HET: BT5; 1.28A {Pyrococcus horikoshii} SCOP: d.104.1.2, b.34.1.1
+Probab=22.86  E-value=2e+02  Score=19.64  Aligned_cols=24  Identities=29%  Similarity=0.524  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCceeeEeeCCCCcEEEEEEEec
+Q EGOVIRUS_MCP_A   45 SDHRCAGINMNSNGRLRVVSIGIN   68 (82)
+Q Consensus        45 sdhrcaginmnsngrlrvvsigin   68 (82)
+                      .+..++||-..+...--++.||||
+T Consensus       108 ~~kKi~GIL~e~~~~~~iiGiGiN  131 (235)
+T 2DXU_B          108 NYKKIAGVLVEGKGDKIVLGIGLN  131 (235)
+T ss_dssp             TTEEEEEEEEEEETTEEEEEEEEC
+T ss_pred             CCeeeEEEEEEecCCeEEEEEEEE
+
+
+No 14
+>7PWE_A Ferredoxin-thioredoxin reductase subunit B; glutaredoxin ferredoxin disulfide reductase ferredocxin thioredoxin reductase enzyme, UNKNOWN FUNCTION; HET: MSE, SF4, IMD; 2.077A {Desulfotalea psychrophila (strain LSv54 / DSM 12343)}
+Probab=22.83  E-value=44  Score=20.52  Aligned_cols=8  Identities=50%  Similarity=1.319  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             ecccceee
+Q EGOVIRUS_MCP_A   35 YGSQYCKC   42 (82)
+Q Consensus        35 ygsqyckc   42 (82)
+                      ||.+||-|
+T Consensus       127 ~G~~~CPC  134 (196)
+T 7PWE_A          127 YGYMACPC  134 (196)
+T ss_dssp             HSSCBCTT
+T ss_pred             HCCCCCCC
+
+
+No 15
+>O48413 GP59_BPSP1 Putative gene 59 protein OS=Bacillus phage SP01 OX=10685 GN=59 PE=4 SV=1
+Probab=22.44  E-value=67  Score=21.56  Aligned_cols=22  Identities=32%  Similarity=0.486  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             CCCCCHHHeEeecccCCccccc
+Q EGOVIRUS_MCP_A    1 MHNLSIEEKVRILGYEPTDICE   22 (82)
+Q Consensus         1 mhnlsieekvrilgyeptdice   22 (82)
+                      |.||..|-..|++-|...+|.+
+T Consensus        35 m~nltpeg~arv~hy~veeis~   56 (56)
+T O48413           35 MRNLTPEGIARVQHYNVEEISK   56 (56)
+T ss_pred             HccCCHhhheeeEEeehhhhcC
+
+
+No 16
+>1TPM_A TISSUE-TYPE PLASMINOGEN ACTIVATOR; PLASMINOGEN ACTIVATOR; NMR {Homo sapiens} SCOP: g.27.1.1
+Probab=20.60  E-value=1.1e+02  Score=19.41  Aligned_cols=12  Identities=42%  Similarity=1.232  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             cceeecCCCCce
+Q EGOVIRUS_MCP_A   38 QYCKCSSSDHRC   49 (82)
+Q Consensus        38 qyckcsssdhrc   49 (82)
+                      .||.|.++.-||
+T Consensus        32 EyCRC~~~~~rC   43 (50)
+T 1TPM_A           32 EYCWCNSGRAQC   43 (50)
+T ss_dssp             EEEECSSSSCEE
+T ss_pred             EEEEEcCCCCee
+
+
+No 17
+>1BND_A BRAIN DERIVED NEUROTROPHIC FACTOR; NEUROTROPHIN, COMPLEX (GROWTH FACTOR-GROWTH FACTOR) COMPLEX; 2.3A {Homo sapiens} SCOP: g.17.1.3
+Probab=20.33  E-value=95  Score=20.44  Aligned_cols=35  Identities=17%  Similarity=0.324  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cccccCCCCCCCCceeecccceeec-CCCCceeeEe
+Q EGOVIRUS_MCP_A   19 DICEDINWNGDLTPQIYGSQYCKCS-SSDHRCAGIN   53 (82)
+Q Consensus        19 dicedinwngdltpqiygsqyckcs-ssdhrcagin   53 (82)
+                      +|-.+++-|+....|.+-.-.|.=. ..+..|.||+
+T Consensus        37 ~v~~~~~~~~~~~~Q~f~~t~C~~~~~~~~~C~Gid   72 (119)
+T 1BND_A           37 TVLEKVPVSKGQLKQYFYETKCNPMGYTKEGCRGID   72 (119)
+T ss_dssp             EECSEEECSSSEEECEEEEEEECTTSGGGSSCTTBC
+T ss_pred             EEEeeeecCCcceeEEEEEEEccCCCCCCCCccCCc
+
+

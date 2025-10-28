@@ -1,0 +1,296 @@
+Query         EGOVIRUS_MCP_GAIO21_1_SAMN11098114_METAG_scaffold_32_1376_length_2484
+Match_columns 827
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 71906
+Date          Mon Oct 20 19:34:43 2025
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/1384976.hhr -oa3m ../results/1384976.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5J7O_A major capsid protein; v  70.0       5 6.9E-05   44.4   2.5  148   63-217    29-233 (645)
+  2 7YJL_A Major capsid protein; M  55.0      15 0.00021   38.0   2.7  107   96-212    44-152 (459)
+  3 6OJN_A Major capsid protein; i  54.6      10 0.00014   39.0   1.4   97   96-205    50-147 (463)
+  4 6KU9_B B646L; capsid protein,   49.4      22 0.00031   40.6   3.1  157   57-217    71-282 (693)
+  5 8H2I_cS MCPv5; giant virus, nu  46.4      18 0.00025   36.9   1.7   84   96-207    40-125 (400)
+  6 8H2I_cY MCPv4; giant virus, nu  42.6      25 0.00035   35.8   2.0   47  106-176    49-95  (401)
+  7 5TIP_A Major capsid protein; V  39.6      30 0.00041   35.7   2.0   86   96-205    40-125 (436)
+  8 8H2I_bC MCPv2; giant virus, nu  37.4      29  0.0004   37.7   1.6   88   96-205   134-221 (486)
+  9 8RBT_L Major capsid protein; c  35.1      30 0.00041   36.7   1.2  114   96-212    50-224 (496)
+ 10 8H2I_cZ MCPv3; giant virus, nu  28.2      67 0.00093   33.0   2.4   56   96-176    42-97  (403)
+ 11 8H2I_bB MCPv1; giant virus, nu  24.1 1.1E+02  0.0016   32.9   3.2   81   96-176    41-195 (520)
+
+No 1
+>5J7O_A major capsid protein; virus, capsid, double jelly-roll, VIRAL PROTEIN; 2.37A {Faustovirus}
+Probab=69.99  E-value=5  Score=44.43  Aligned_cols=148  Identities=14%  Similarity=0.138  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             HHHHHhheeEeeeecce-------------eecCCCCCCCcccccceEEEee-ccccccCChhHhhhHhhhcccccceEE
+Q EGOVIRUS_MCP_G   63 IEAVTARRVATATINAT-------------WRCPLNLQTPLTCPVPWVLIES-SQRMTTGNKIEYQLMRTADFIGRNYIR  128 (827)
+Q Consensus        63 ieavtarrvatatinat-------------wrcplnlqtpltcpvpwvlies-sqrmttgnkieyqlmrtadfigrnyir  128 (827)
+                      |.++.++|.|..--+..             |+.-..--++..+-  +..+.. +...+.|+++.+.+=|..||+..-|++
+T Consensus        29 ~~~~~~~~~~~g~~d~~~t~~~~~~~~~tff~~~yk~~t~f~~e--~~~~~~~~g~~~~g~~~~~~Ip~~GDll~~~~l~  106 (645)
+T 5J7O_A           29 IKSIMCLRAKQGFSDPTPTLVDIERTHILLINSHYKPFAAMGYE--YQKTRPNTGNPTYNSTIQFSIPQFGDFFSDMVVH  106 (645)
+T ss_dssp             HHHHHHHHHHTTCSCCSCCHHHHHTTSBCSSCCCCCCBCCEEEE--EEEECCSSSSCCSSSEEEEECCSCSSEEEEEEEE
+T ss_pred             HHHHHHHHHhcCCCCCCCchhhhcCCceeEEEEEeeCcceeEEE--EEEeCCCCCCCCCCCeEEEEcCChhhheeeEEEE
+
+
+Q ss_pred             EEcCCCCccc-----------------------------------------cccccccHhhcCCChhheecchhchhHHH
+Q EGOVIRUS_MCP_G  129 IELPEVDTTE-----------------------------------------VSDFKFSEELNQPDPSQIYLGAWHRDLIP  167 (827)
+Q Consensus       129 ielpevdtte-----------------------------------------vsdfkfseelnqpdpsqiylgawhrdlip  167 (827)
+                      |+||.+....                                         |.-+.-   ...|+++.-+.-+|-..+--
+T Consensus       107 i~lp~i~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~v~~~G~---~~~~~~~~~~~~~W~~~lG~  183 (645)
+T 5J7O_A          107 VQLAATSASAGTVPALPAFIGADDQVLTSTSVVSATENTTSGVYTLYTQSYVNQQGT---TQTVAAAATNFVRYCEYPGL  183 (645)
+T ss_dssp             EEECCBCCCEEECCCCCCCCSSEEEEECSSCEEEEECCTTTTEEEEEEEEEECTTCC---EECTTSEEECEEEECSSHHH
+T ss_pred             EEeCcccCCCCCCCCCccccCCCccccCCccccccccccccceeEEeeeeeecCCCC---cccccccccceeEecCcHHH
+
+
+Q ss_pred             HHhheeeeccCccCceeeeeeccceEEeeEeecCCcHHH--hHhhcCCccee
+Q EGOVIRUS_MCP_G  168 RIISEVEFYPRSSQHRLFTYTGYDIAVHNIIFGNHNKEM--NDLMAGEDRFE  217 (827)
+Q Consensus       168 riisevefyprssqhrlftytgydiavhniifgnhnkem--ndlmagedrfe  217 (827)
+                      +||.+|+|+--+.  .+-.|+|..+-+++=.+.+.+|.-  +.++..+..++
+T Consensus       184 ~lIe~v~l~Igg~--~Id~~~ge~l~i~~el~~~~~k~~~y~~miG~~~~l~  233 (645)
+T 5J7O_A          184 RLFKRVKFEVNGN--PLDEYTALAAIMYNKFHVPDFKLTGWKRLIGQEVPVE  233 (645)
+T ss_dssp             HHEEEEEEEETTE--EEEEEEHHHHHHHHHHSCCHHHHHHHHHHTTCCCCEE
+T ss_pred             HHhcEEEEEECCE--EEEEEeHHHHHHHHHhcCCHHHHHHHHHHcCCccccc
+
+
+No 2
+>7YJL_A Major capsid protein; MCP, Melbournevirus, giant virus, major capsid protein, VIRAL PROTEIN;{Melbournevirus}
+Probab=54.99  E-value=15  Score=38.02  Aligned_cols=107  Identities=15%  Similarity=0.238  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEE-eeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheee
+Q EGOVIRUS_MCP_G   96 WVLI-ESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVE  174 (827)
+Q Consensus        96 wvli-essqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriiseve  174 (827)
+                      ++.+ .-+..-.-|+++.+.+-|..|++..-|++|+||+.......+        .-....-+--+|...+--.+|.+|+
+T Consensus        44 ~~~~~~~~~~~~~G~~~~~~I~~~GDll~~~~l~i~lP~i~~~~~~~--------~~~~~~~~~~~w~~~lg~~lI~~i~  115 (459)
+T 7YJL_A           44 PVVLRNISGLPGFGSEFSASVNRSGDYVLNTWLRVRLPLVAIRPTNT--------GGAINANATIRWTRNFMHNLVEKVN  115 (459)
+T ss_dssp             CEECCCCSSCCSSSCCCCCBCCSSSCBCCCCEEEEEECCEECCSCSS--------SCSCSSCCCBCCCSSSHHHHCCCCE
+T ss_pred             EEEEecCCCCCCCCCEEEEEeCCCcceeeEEEEEEEcCcceecCCCC--------CCcccccceeEecccHHhHhhcEEE
+
+
+Q ss_pred             eccCccCceeeeeeccceEEeeEeecCCcHHHh-HhhcC
+Q EGOVIRUS_MCP_G  175 FYPRSSQHRLFTYTGYDIAVHNIIFGNHNKEMN-DLMAG  212 (827)
+Q Consensus       175 fyprssqhrlftytgydiavhniifgnhnkemn-dlmag  212 (827)
+                      ++--.  ..+-+++|..+-+++-++...+|.-. +-|.|
+T Consensus       116 l~igg--~~Id~~~g~~l~i~~~l~~~~~k~~~y~~miG  152 (459)
+T 7YJL_A          116 ITFND--LIVHEFDSYWFDFNSQFNIDASKRVGYRNMIG  152 (459)
+T ss_dssp             EECSS--CCCCCCCHHHHHHHTTTTSCSSTHHHHHHTSS
+T ss_pred             EEECC--EEEEEEehhHHHHhhhhcCChHHHHHHHHHcC
+
+
+No 3
+>6OJN_A Major capsid protein; icosahedral, trimers, outer coat, anchor proteins, zip proteins, VIRAL PROTEIN; 8.6A {Singapore grouper iridovirus}
+Probab=54.58  E-value=10  Score=38.99  Aligned_cols=97  Identities=10%  Similarity=0.155  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             eEEE-eeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheee
+Q EGOVIRUS_MCP_G   96 WVLI-ESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVE  174 (827)
+Q Consensus        96 wvli-essqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriiseve  174 (827)
+                      ++.+ .-+..-.-|.++.+.+-|..|+|..-|++|+||+.......++.           .-.--+|..++--++|.+|+
+T Consensus        50 ~~~~~~~~~~~~~g~~~~~~I~~~GDll~~~~L~i~lp~i~~~~~~~~~-----------~~~~~~w~~~lg~~lI~~i~  118 (463)
+T 6OJN_A           50 PTMATRVSGNPAFGQEFSVGVPRSGDYVLNAWLTLKTPEIKLLETNRLG-----------ANGTVRWTKNLMHNAVEHAS  118 (463)
+T ss_dssp             CCCCCEEESCCCSSCEEEEECCCSSSBCCCEECEECCCCCCCSCSCCCT-----------TCCCTTSCCCSHHHHCCEEE
+T ss_pred             EEEEecCCCCCCCCcEEEEEcCCCcceeEEEEEEEEcCceeccCcccCC-----------CCCceeecccHHhHhhcEEE
+
+
+Q ss_pred             eccCccCceeeeeeccceEEeeEeecCCcHH
+Q EGOVIRUS_MCP_G  175 FYPRSSQHRLFTYTGYDIAVHNIIFGNHNKE  205 (827)
+Q Consensus       175 fyprssqhrlftytgydiavhniifgnhnke  205 (827)
+                      ++--..  .+-+++|..+-+++=.+....|.
+T Consensus       119 l~igg~--~Id~~~~~~l~i~~~l~~~~~k~  147 (463)
+T 6OJN_A          119 LTFNDI--CAQQFNTAYLDAWTQFNMCEGKR  147 (463)
+T ss_dssp             EEETTE--EEEEEEHHHHHHTTTTTCCSTHH
+T ss_pred             EEECCE--EEEEEeHHHHHHHHhhcCChhHH
+
+
+No 4
+>6KU9_B B646L; capsid protein, VIRAL PROTEIN; 2.67A {African swine fever virus}
+Probab=49.43  E-value=22  Score=40.64  Aligned_cols=157  Identities=13%  Similarity=0.080  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCHHHHHHHHhheeEeeeecce-------------eecCCCCCCCcccccceEEE-eeccccccCChhHhhhHhhhccc
+Q EGOVIRUS_MCP_G   57 DVPQRFIEAVTARRVATATINAT-------------WRCPLNLQTPLTCPVPWVLI-ESSQRMTTGNKIEYQLMRTADFI  122 (827)
+Q Consensus        57 dvpqrfieavtarrvatatinat-------------wrcplnlqtpltcpvpwvli-essqrmttgnkieyqlmrtadfi  122 (827)
+                      |.-..-|+.++++|.|..--+..             |+.-..--|+..+-  +..+ ......+-|+++.+.+-|.+|++
+T Consensus        71 ~~l~~~~~~~~~~~~~~~~~~P~~~~~~i~~~~itfFk~~ykr~TnFa~E--~~~i~~~~g~~~fG~~~t~~Ipr~GDLl  148 (693)
+T 6KU9_B           71 DLLNSRISNIKNVNKSYGKPDPEPTLSQIEETHLVHFNAHFKPYVPVGFE--YNKVRPHTGTPTLGNKLTFGIPQYGDFF  148 (693)
+T ss_dssp             -----------------------------------------------CEE--EEEECCSSSSCCTTSEEEEECCSCSSEE
+T ss_pred             HHHhHHHHhHhhhhhccCCCCCCCchhhhhhceeeeeEeEeCCCCCcEEE--EEEecCCCCCCCCCCEEEEEeCCcccee
+
+
+Q ss_pred             ccceEEEEcCCCCccc---------------------------------------cccccccHhhcCCChhheecchhch
+Q EGOVIRUS_MCP_G  123 GRNYIRIELPEVDTTE---------------------------------------VSDFKFSEELNQPDPSQIYLGAWHR  163 (827)
+Q Consensus       123 grnyirielpevdtte---------------------------------------vsdfkfseelnqpdpsqiylgawhr  163 (827)
+                      .+-|++|+||+.....                                       +.|..-.....+-..++...-.|-.
+T Consensus       149 ~~~yL~i~LP~i~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~y~~~d~~g~~~~~~~~~~~~~~~~W~~  228 (693)
+T 6KU9_B          149 HDMVGHHILGACHSSWQDAPIQGTSQMGAHGQLQTFPRNGYDWDNQTPLEGAVYTLVDPFGRPIVPGTKNAYRNLVYYCE  228 (693)
+T ss_dssp             EEEEEEEEECCBCCCEECCCCTTBCCBCTTSCBCCBCCTTBCSSSSSBCTTEEEEEECTTSCBCCTTCTTCEECEEEECS
+T ss_pred             eeEEEEEEccccCCccCCCCccCcccccccccccccCCCCCCcCCCCCcCCceeeeeCCCCCcCCCCCccccccceeecC
+
+
+Q ss_pred             hHHHHHhheeeeccCccCceeeeeeccceEEeeEeecCCcHH--HhHhhcCCccee
+Q EGOVIRUS_MCP_G  164 DLIPRIISEVEFYPRSSQHRLFTYTGYDIAVHNIIFGNHNKE--MNDLMAGEDRFE  217 (827)
+Q Consensus       164 dlipriisevefyprssqhrlftytgydiavhniifgnhnke--mndlmagedrfe  217 (827)
+                      .+--++|.+|+|+--+.  .+-.++|..+-+++=.+...+|.  .+.++.....++
+T Consensus       229 ~lG~~lIe~v~l~Igg~--~ID~~~ge~L~i~~el~~~~~k~~~y~~miG~~~~l~  282 (693)
+T 6KU9_B          229 YPGERLYENVRFDVNGN--SLDEYSSDVTTLVRKFCIPGDKMTGYKHLVGQEVSVE  282 (693)
+T ss_dssp             SHHHHHEEEEEEEESSC--EEEEEEHHHHHHHHHHHSCSSSHHHHHHHHTCCCCEE
+T ss_pred             CHHHHHHheeEEEECCE--EEEEEcHHHHHHHHHhcCChhHHHHHHHHcCCccccc
+
+
+No 5
+>8H2I_cS MCPv5; giant virus, nucleocytoplasmic large DNA viruses (NCLDVs), viral assembly, Paramecium bursaria chlorella virus 1 (PBCV-1), chlorovirus; 3.8A {Paramecium bursaria Chlorella virus 1}
+Probab=46.37  E-value=18  Score=36.89  Aligned_cols=84  Identities=10%  Similarity=0.110  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheeee
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVEF  175 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriisevef  175 (827)
+                      ++.+.-  ..+.|+++.+.+-|..|++.+-|++|+||....                     -.+|..   -++|.+|++
+T Consensus        40 ~~~~~~--~~~~g~~~~~~i~~~gDll~~~~l~i~lp~i~~---------------------~~~w~~---~~lI~~i~l   93 (400)
+T 8H2I_cS          40 SIETVF--DVLYGSTSFINIKKAGDLLKSCVLEITMKRTST---------------------ESFYPA---EQFIKSLTL   93 (400)
+T ss_pred             EEEEec--cCCCCCEEEEEeCCccceeceeEEEEECCCCCC---------------------CCccCH---HHhheEEEE
+
+
+Q ss_pred             ccCccCceeeeeec--cceEEeeEeecCCcHHHh
+Q EGOVIRUS_MCP_G  176 YPRSSQHRLFTYTG--YDIAVHNIIFGNHNKEMN  207 (827)
+Q Consensus       176 yprssqhrlftytg--ydiavhniifgnhnkemn  207 (827)
+                      +--+.  .+-+++|  --+-+++-.+.+..+...
+T Consensus        94 ~igg~--~Id~~~g~~~~l~i~~~l~~~~~~~~~  125 (400)
+T 8H2I_cS          94 LIGDQ--EVEKIQDFPTWSRVHDELFNDTEMRSA  125 (400)
+T ss_pred             EECCE--EEEEEcCHHHHHHHHHHHhCCHHHHHH
+
+
+No 6
+>8H2I_cY MCPv4; giant virus, nucleocytoplasmic large DNA viruses (NCLDVs), viral assembly, Paramecium bursaria chlorella virus 1 (PBCV-1), chlorovirus; 3.8A {Paramecium bursaria Chlorella virus 1}
+Probab=42.56  E-value=25  Score=35.81  Aligned_cols=47  Identities=15%  Similarity=0.150  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             ccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheeeec
+Q EGOVIRUS_MCP_G  106 TTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVEFY  176 (827)
+Q Consensus       106 ttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriisevefy  176 (827)
+                      +.|.++.+.+-|..|++..-|++|+||+...                     -.+|..   -++|.+|+++
+T Consensus        49 ~~g~~~~~~I~~~gDll~~~~l~i~lp~i~~---------------------~~~w~~---~~lI~~i~l~   95 (401)
+T 8H2I_cY          49 MGNGNPSVLIPRNGDLIKSIRLEITLKKGTG---------------------QSFYPA---EQLISYLALK   95 (401)
+T ss_pred             CCCCcEEEEcCCccceEceEEEEEEcCCCCC---------------------CCcCCH---HHHHheEEEE
+
+
+No 7
+>5TIP_A Major capsid protein; VIRAL PROTEIN; HET: XYP, RM4, FUC, MAN, 7CV, BGC, XXR, GLA; 2.0A {Paramecium bursaria Chlorella virus 1}
+Probab=39.59  E-value=30  Score=35.72  Aligned_cols=86  Identities=14%  Similarity=0.137  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheeee
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVEF  175 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriisevef  175 (827)
+                      ++.+.-...-+.|+++.+.+-|..|++..-|++|+||+....                   +--+|.   --++|.+|++
+T Consensus        40 ~~~~~~~~~~~fg~~~~~~I~~~GDll~~~~l~i~lp~i~~~-------------------~~~~w~---G~~lI~~i~l   97 (436)
+T 5TIP_A           40 SIQQTINGSVGFGNKVSTQISRNGDLITDIVVEFVLTKGGNG-------------------GTTYYP---AEELLQDVEL   97 (436)
+T ss_dssp             EEECCCBSCCSTTCEEEEECCCCSSEEEEEEEEEEEECCSCT-------------------TCCSSH---HHHHEEEEEE
+T ss_pred             EEEEecCCCccCCCEEEEEeCChhhhcceEEEEEEcCCCCCC-------------------Ccccch---HHHHHcEEEE
+
+
+Q ss_pred             ccCccCceeeeeeccceEEeeEeecCCcHH
+Q EGOVIRUS_MCP_G  176 YPRSSQHRLFTYTGYDIAVHNIIFGNHNKE  205 (827)
+Q Consensus       176 yprssqhrlftytgydiavhniifgnhnke  205 (827)
+                      +-  ....+-+++|--+-+++-.+...++.
+T Consensus        98 ~i--gg~~Id~~~g~~l~i~~~l~~~~~~~  125 (436)
+T 5TIP_A           98 EI--GGQRIDKHYNDWFRTYDALFRMNDDR  125 (436)
+T ss_dssp             EE--TTEEEEEEEHHHHHHHHHHHCCHHHH
+T ss_pred             EE--CCEEEEEEeHHHHHHHHHHhCCccHH
+
+
+No 8
+>8H2I_bC MCPv2; giant virus, nucleocytoplasmic large DNA viruses (NCLDVs), viral assembly, Paramecium bursaria chlorella virus 1 (PBCV-1), chlorovirus; 3.8A {Paramecium bursaria Chlorella virus 1}
+Probab=37.39  E-value=29  Score=37.72  Aligned_cols=88  Identities=18%  Similarity=0.229  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheeee
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVEF  175 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriisevef  175 (827)
+                      ++-+..+....-|+++.+.+-|..|++..-|++|+||.+...                    -..|..++--++|.+|++
+T Consensus       134 ~~~~~~~~~~~fG~~~~~~I~~~GDlL~~~~L~i~LP~i~~~--------------------~~~w~~~lG~~lI~~i~L  193 (486)
+T 8H2I_bC         134 NFEERFSTVVKFGTRNICQLSKNGDLIGNMCFRVTLPNLGIP--------------------GGTWAPTMGYNIFSTIRM  193 (486)
+T ss_pred             EEEEeCCCCccCCCEEEEEeCCCcCeEceEEEEEEcCCCCCC--------------------CcccccchHhhhhcEEEE
+
+
+Q ss_pred             ccCccCceeeeeeccceEEeeEeecCCcHH
+Q EGOVIRUS_MCP_G  176 YPRSSQHRLFTYTGYDIAVHNIIFGNHNKE  205 (827)
+Q Consensus       176 yprssqhrlftytgydiavhniifgnhnke  205 (827)
+                      +--..  .+-+++|--+-+++-.+.+.++.
+T Consensus       194 ~Igg~--~Id~~~g~~l~i~~el~~~~~k~  221 (486)
+T 8H2I_bC         194 RIGDT--IVQSHDRVWYDIDDKMFCDSTKI  221 (486)
+T ss_pred             EECCE--EEEEEehhHHHHHHHhhCCHhhH
+
+
+No 9
+>8RBT_L Major capsid protein; cryo-EM, subtomogram averaging, EhV-201, enveloped virus, capsid, major capsid protein, VIRUS; 12.0A {Emiliania huxleyi virus 201}
+Probab=35.10  E-value=30  Score=36.75  Aligned_cols=114  Identities=13%  Similarity=0.180  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccc---------------------------cccccccHhh
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTE---------------------------VSDFKFSEEL  148 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdtte---------------------------vsdfkfseel  148 (827)
+                      ++.+.-...-+-|+++.+.+=|..|++.+-|++|+||+.....                           +..+..+..-
+T Consensus        50 ~~~~~~~~~~~fg~~~~~~Ip~~GDll~~~yl~i~LP~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  129 (496)
+T 8RBT_L           50 SINQPFTTQVQFGAESHITVNRQGDLLSWMYLKIVLPGLKVQNQADTVQPTQQSFASLDNDVAAQADVSHVLPYIEGAYT  129 (496)
+T ss_dssp             EEEEECSSCCCTTSEEEEECCCCSSEEEEEEEEEEECCEEEEEGGGCSSCCCCCCEEGGGCHHHHHHHHHHGGGCCSCTT
+T ss_pred             EEEcCCCCCCCCCCEEEEEcCCccceeceEEEEEECCccccccCccCCCcccccccccccchhhhcchhcchhhhccccc
+
+
+Q ss_pred             cCCCh----------------------------------hheecchhchhHHHHHhheeeeccCccCceeeeeeccceEE
+Q EGOVIRUS_MCP_G  149 NQPDP----------------------------------SQIYLGAWHRDLIPRIISEVEFYPRSSQHRLFTYTGYDIAV  194 (827)
+Q Consensus       149 nqpdp----------------------------------sqiylgawhrdlipriisevefyprssqhrlftytgydiav  194 (827)
+                      ..++.                                  ..-.--+|-.++--++|.+|+++--..  .+-+++|--+-+
+T Consensus       130 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~~lG~~lI~~i~l~igg~--~Id~~~g~~l~i  207 (496)
+T 8RBT_L          130 EASLNTKEQLIAEAKNSYEAAKYNAAPLPVAAQMQSTEMPDFDYAYWTEAIGFHLIKRAEFKVGGA--TIDTIWSELLFA  207 (496)
+T ss_dssp             TSCHHHHHHHHHHHHHHHHHHHHCCCCCCHHHHCCCCCCCSSCCEEECTTHHHHTEEEEEEEETTE--EEEEEEHHHHHH
+T ss_pred             cccccchHHHHHHHhchHHHHhhccCCCchhhhccccCCCCcccceecchHHHHhhcEEEEEECCE--EEEEEcHHHHHH
+
+
+Q ss_pred             eeEeecCCcHHHhHhhcC
+Q EGOVIRUS_MCP_G  195 HNIIFGNHNKEMNDLMAG  212 (827)
+Q Consensus       195 hniifgnhnkemndlmag  212 (827)
+                      ++-.+.+.++.-. -|-|
+T Consensus       208 ~~~l~~~~~~~~~-~miG  224 (496)
+T 8RBT_L          208 MEELMGRAGRRLT-ETIG  224 (496)
+T ss_dssp             HHHHHCCTTCCCH-HHHT
+T ss_pred             HHHhhcchhHHHH-hHhc
+
+
+No 10
+>8H2I_cZ MCPv3; giant virus, nucleocytoplasmic large DNA viruses (NCLDVs), viral assembly, Paramecium bursaria chlorella virus 1 (PBCV-1), chlorovirus; 3.8A {Paramecium bursaria Chlorella virus 1}
+Probab=28.24  E-value=67  Score=33.04  Aligned_cols=56  Identities=11%  Similarity=0.097  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcCCChhheecchhchhHHHHHhheeee
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQPDPSQIYLGAWHRDLIPRIISEVEF  175 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnqpdpsqiylgawhrdlipriisevef  175 (827)
+                      ++.+.-  ..+.|.++++.+-|..|++..-|++|+||...+.                    --+|..   -++|.+|++
+T Consensus        42 ~~~~~~--~~~~g~~~~~~i~~~gDll~~~~l~i~lp~i~~~--------------------~~~w~~---~~lI~~i~l   96 (403)
+T 8H2I_cZ          42 SIENYI--NVNPGSTTSIVVGRFGDLVRKVTLEITMKKGSTT--------------------NPFYPS---EQYVKYAHL   96 (403)
+T ss_pred             EEEeec--cCCCCCeEEEEeCCccceeeEEEEEEEcCCCCCC--------------------CCCCCH---hheeeEEEE
+
+
+Q ss_pred             c
+Q EGOVIRUS_MCP_G  176 Y  176 (827)
+Q Consensus       176 y  176 (827)
+                      +
+T Consensus        97 ~   97 (403)
+T 8H2I_cZ          97 S   97 (403)
+T ss_pred             E
+
+
+No 11
+>8H2I_bB MCPv1; giant virus, nucleocytoplasmic large DNA viruses (NCLDVs), viral assembly, Paramecium bursaria chlorella virus 1 (PBCV-1), chlorovirus; 3.8A {Paramecium bursaria Chlorella virus 1}
+Probab=24.06  E-value=1.1e+02  Score=32.91  Aligned_cols=81  Identities=12%  Similarity=0.173  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             eEEEeeccccccCChhHhhhHhhhcccccceEEEEcCCCCccccccccccHhhcC-CC----hhheecchhch-------
+Q EGOVIRUS_MCP_G   96 WVLIESSQRMTTGNKIEYQLMRTADFIGRNYIRIELPEVDTTEVSDFKFSEELNQ-PD----PSQIYLGAWHR-------  163 (827)
+Q Consensus        96 wvliessqrmttgnkieyqlmrtadfigrnyirielpevdttevsdfkfseelnq-pd----psqiylgawhr-------  163 (827)
+                      ++.+.-.....-|+++.+.+-|..|++.+-|++|+||++....+..-.--..+.. ..    +..-+--.|-+       
+T Consensus        41 ~~~~~~~~~~~fG~~~~~~Ip~~GDll~~~~l~i~lp~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  120 (520)
+T 8H2I_bB          41 SIQQTFDGTTDFGKFPTVTISRNGDLAGPIWIEVNLPSLLGYNITPTPAEGNTSNIAAISTVFKDDYNNYWWTYNPGTTP  120 (520)
+T ss_pred             EEEEccCCCcCCCCeEEEEcCCCcccccceEEEEECccccCCCCCCCCcccCCCcchhcccccccccceeeEecCCCCCc
+
+
+Q ss_pred             --------------------------------------------------------------hHHHHHhheeeec
+Q EGOVIRUS_MCP_G  164 --------------------------------------------------------------DLIPRIISEVEFY  176 (827)
+Q Consensus       164 --------------------------------------------------------------dlipriisevefy  176 (827)
+                                                                                    .+--++|.+|+++
+T Consensus       121 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~wv~~lG~~lIe~i~l~  195 (520)
+T 8H2I_bB         121 QYSNLIAAFSNVDYKYYANAVTSTYPPTALSNVVYSWPYMITGNTGTRSTVAIPTANLRYVNGIGLALFNSIELE  195 (520)
+T ss_pred             cchhHHHhhcccchhhhcccccCCCCCCccccccccCcceecCCCCCcccccCCccchhhcccHHHHHHhEeEEE
+
+

@@ -1,0 +1,10 @@
+input_dir: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/def_annot/output_annot/mmseqs2/"
+output_dir: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/hhsearch/output_hhsearch/"
+envs: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/hhsearch/hhsearch.pipe/workflow/envs/"
+threads: 4
+scripts: "/home/niagara/Storage/MetaRus/lam29/arina/defense_pred_proj/hhsearch/hhsearch.pipe/scripts/"
+evalue: 0.001
+databases:
+  pfam: "/home/niagara/Storage/MetaRus/Common_dir/dbs/hhsuite_dbs/pfama"
+  pdb: "/home/niagara/Storage/MetaRus/Common_dir/dbs/hhsuite_dbs/pdb70"
+  cdd: "/home/niagara/Storage/MetaRus/Common_dir/dbs/hhsuite_dbs/NCBI_CD"
